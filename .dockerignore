@@ -1,0 +1,15 @@
+node_modules
+dist
+.local-data
+.venv-vision
+datasets/vision/examples
+.git
+.codebuddy
+*.pdf
+*.docx
+*.md
+evaluation
+tests
+.playwright-cli
+screenshots
+*.log

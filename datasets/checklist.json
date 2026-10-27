@@ -1,0 +1,59 @@
+{
+  "id": "DEMO-UAE-UK",
+  "version": "demo-2026-10-27",
+  "date": "2026-10-27",
+  "authority": "demo_only",
+  "corridor": "UAE-to-UK",
+  "ruleset_version": "rules-2026-10-27-v2",
+  "rules": [
+    {
+      "id": "SCOPE",
+      "field": "part_type",
+      "operator": "mirror_family_only",
+      "severity": "specialist"
+    },
+    {
+      "id": "CONFLICTS",
+      "field": "*",
+      "operator": "no_active_conflicts",
+      "severity": "blocking"
+    },
+    {
+      "id": "IDENTIFIER",
+      "field": "part_number",
+      "operator": "seller_confirmed_or_disclosed",
+      "severity": "advisory"
+    },
+    {
+      "id": "CONDITION",
+      "field": "defect_notes",
+      "operator": "present_or_unknown_disclosed",
+      "severity": "blocking"
+    },
+    {
+      "id": "TESTING",
+      "field": "testing_status",
+      "operator": "present_or_unknown_disclosed",
+      "severity": "blocking"
+    },
+    {
+      "id": "PACKAGING",
+      "field": "measurement_basis",
+      "operator": "packaged",
+      "severity": "blocking"
+    },
+    {
+      "id": "VISUAL-REVIEW",
+      "field": "visual_inspections",
+      "operator": "all_regions_reviewed",
+      "severity": "blocking"
+    },
+    {
+      "id": "REGION",
+      "field": "market",
+      "operator": "disclosed",
+      "severity": "advisory"
+    }
+  ],
+  "disclaimer": "Demo-only listing and shipping-readiness checklist. Not customs clearance, legal advice, carrier acceptance, or a booking."
+}

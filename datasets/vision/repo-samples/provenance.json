@@ -1,0 +1,40 @@
+{
+  "acquired_at": "2026-10-27T18:13:25.097Z",
+  "note": "Setup-only acquisition from repositories listed in GitHub_Repos_Reference.docx (section B: vehicle damage). No repository declared a license; retained for local offline evaluation only. Review underlying photo rights before any redistribution, publication or commercial use.",
+  "groups": [
+    {
+      "slug": "mrcharlessg",
+      "repository": "https://github.com/MRCHARLESSG/VEHICLES-DAMAGES-DETECTION",
+      "source": "https://github.com/MRCHARLESSG/VEHICLES-DAMAGES-DETECTION/tree/main/custom-dataset/images",
+      "attribution": "MRCHARLESSG/VEHICLES-DAMAGES-DETECTION custom-dataset images. Referenced from the supplied GitHub repos document.",
+      "files": [
+        "5.jpg",
+        "8.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg"
+      ]
+    },
+    {
+      "slug": "mehulcode12",
+      "repository": "https://github.com/MEHULCODE12/VEHICLE-DAMAGE-DETECTION-BASED-ON-REAL-LIFE-DATASET",
+      "source": "https://github.com/MEHULCODE12/VEHICLE-DAMAGE-DETECTION-BASED-ON-REAL-LIFE-DATASET",
+      "attribution": "MEHULCODE12 real-life vehicle damage dataset sample images. Referenced from the supplied GitHub repos document.",
+      "files": [
+        "temp_file.jpg",
+        "temp_image.jpg"
+      ]
+    },
+    {
+      "slug": "shivanshgupta",
+      "repository": "https://github.com/ShivanshGupta-25/Car-Object-Detection-YOLO-Model",
+      "source": "https://github.com/ShivanshGupta-25/Car-Object-Detection-YOLO-Model/tree/main/Images",
+      "attribution": "ShivanshGupta-25 car object detection sample photo. Referenced from the supplied GitHub repos document.",
+      "files": [
+        "carimage3.jpg"
+      ]
+    }
+  ],
+  "acquired": 9
+}

@@ -1,0 +1,1625 @@
+{
+  "runAt": "2026-10-27T18:16:30.134Z",
+  "mode": "local_onnx",
+  "modelId": "cloudwhynot-damage-segmentation",
+  "modelSha256": "493f32118ca2e130d956ccc778f67c9e2d98d80e05b8ff57459219054ea6daa3",
+  "purpose": "Execution/geometry smoke test on referenced photos, not a labelled accuracy benchmark",
+  "threshold": 0.35,
+  "totalExamples": 59,
+  "mirrorExamples": 24,
+  "vehicleExamples": 9,
+  "damageSamples": 26,
+  "limitations": [
+    "No independent expert damage labels; precision/recall/IoU cannot be claimed",
+    "Mirror part annotations do not label defects",
+    "No-detection is not evidence of damage-free condition",
+    "Referenced photos may overlap original model training sources; not a held-out generalization benchmark"
+  ],
+  "results": [
+    {
+      "exampleId": "mirror-01",
+      "kind": "mirror_crop",
+      "sourceHash": "836885a79236e7dfa81ecea5c506b20a668cd585b9f901d5898100ed04113a28",
+      "imageDimensions": [
+        92,
+        91
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 1001,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-02",
+      "kind": "mirror_crop",
+      "sourceHash": "96ebb52b9cd8ba123a91a5d27306daaa39dd94ab4279e320341c6e039c7b4c09",
+      "imageDimensions": [
+        93,
+        78
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 532,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-03",
+      "kind": "mirror_crop",
+      "sourceHash": "c18f597299a8e3dbe9c6d3fc52ea3d9febb5d7b3d4f75da8f4cf353f3ff9ac1d",
+      "imageDimensions": [
+        98,
+        70
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 491,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-04",
+      "kind": "mirror_crop",
+      "sourceHash": "8a815d5713431fd94d9e2528515a8db4dde6ef14076f9bfa27097c70d4edf5f0",
+      "imageDimensions": [
+        87,
+        76
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 506,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-05",
+      "kind": "mirror_crop",
+      "sourceHash": "85f810ee69184a55f5cc458dbe0a66ff705061c37f95b45e367c2c6af58be0d7",
+      "imageDimensions": [
+        81,
+        81
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 573,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-06",
+      "kind": "mirror_crop",
+      "sourceHash": "534326ac815b7d764e230deaec094da4583346d6f6fe3ff3d9b6f530930117a7",
+      "imageDimensions": [
+        82,
+        80
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 501,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-07",
+      "kind": "mirror_crop",
+      "sourceHash": "8a164289140a75f66dd5cf72836420c00b85c667c51ea4d5e40eaeba79302d38",
+      "imageDimensions": [
+        73,
+        80
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 471,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-08",
+      "kind": "mirror_crop",
+      "sourceHash": "50752c55d273a307b1f8fab5f5091c0a7ee1362f05eab74822d29304be0b3c2b",
+      "imageDimensions": [
+        79,
+        72
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 475,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-09",
+      "kind": "mirror_crop",
+      "sourceHash": "ba360107128f5ae0f43215d906ad13958fffa3f4b2c361a53201b4bb61e4c716",
+      "imageDimensions": [
+        76,
+        75
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 465,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-10",
+      "kind": "mirror_crop",
+      "sourceHash": "b3326fa2c9b55c442b8d57f3dd39f37b85c64879c3d4d9b4316d194a82c02eb0",
+      "imageDimensions": [
+        71,
+        78
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 479,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-11",
+      "kind": "mirror_crop",
+      "sourceHash": "f853a8fe9b34923634c3ec3ecc322abf64522d83f38fd9b06f6f364e1d8d7842",
+      "imageDimensions": [
+        69,
+        81
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 498,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-12",
+      "kind": "mirror_crop",
+      "sourceHash": "eb3e0a3948b1459f9e4fe730902bffdd317cc3eec521025a5922d2189bf7fa9c",
+      "imageDimensions": [
+        86,
+        65
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 584,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-13",
+      "kind": "mirror_crop",
+      "sourceHash": "fc0b77ce7f6ba1ec7a2bfb4ff25b91b42d30a086d4639f0c0ac5fd04995d4a98",
+      "imageDimensions": [
+        77,
+        72
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 449,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-14",
+      "kind": "mirror_crop",
+      "sourceHash": "b25b8439558ad2be903ee750e82129ef740565d2f2cdf97ab253c1f67069cc87",
+      "imageDimensions": [
+        76,
+        71
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 486,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-15",
+      "kind": "mirror_crop",
+      "sourceHash": "3247758fabf6e310a21b4f27e8fac55a6a1df5e2f1d08004be8b4046b7c0a6c5",
+      "imageDimensions": [
+        84,
+        66
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 463,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-16",
+      "kind": "mirror_crop",
+      "sourceHash": "a402bb87a71f87888f185be9c033470a2226ce3c54b43d2325a00c3489278913",
+      "imageDimensions": [
+        71,
+        76
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 460,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-17",
+      "kind": "mirror_crop",
+      "sourceHash": "ea9e5b0addd3634dda7174f0e7cb1ad7ceaa6ed508c4396114d174f611c46ab5",
+      "imageDimensions": [
+        73,
+        73
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 470,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-18",
+      "kind": "mirror_crop",
+      "sourceHash": "9978b4a4782119b64e3991bcd31960a444f8300687d69bc375cee7b1e505c23e",
+      "imageDimensions": [
+        87,
+        62
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 481,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-19",
+      "kind": "mirror_crop",
+      "sourceHash": "49e3c90e4139d519469d94de51652b6973b5c1413b9e2baf6cb98addfaaaed57",
+      "imageDimensions": [
+        72,
+        73
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 465,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality. The strongest sub-threshold suggestion was 11% (scratch); lower the threshold to surface it.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-20",
+      "kind": "mirror_crop",
+      "sourceHash": "a672da3a1e1d2f027d0d2fc573ed50333fb7db6bf603daec13b1e6d97cbf101f",
+      "imageDimensions": [
+        70,
+        75
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 453,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-21",
+      "kind": "mirror_crop",
+      "sourceHash": "e93a727b6c15c68f93fbc1300aeb9ebb3238c581b27817eb8c4dd0829c916ffb",
+      "imageDimensions": [
+        81,
+        64
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 459,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-22",
+      "kind": "mirror_crop",
+      "sourceHash": "7d81f3e2abc819fad3bda6d9360d81423abb1fac15c15d4d6218a180753e63ef",
+      "imageDimensions": [
+        74,
+        70
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 583,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-23",
+      "kind": "mirror_crop",
+      "sourceHash": "50c711bfc9072eabfda7a24bb7b5fdf848415f3cb9973ce0972a1a0061db6f81",
+      "imageDimensions": [
+        77,
+        67
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 456,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mirror-24",
+      "kind": "mirror_crop",
+      "sourceHash": "8c9a41e801f980e25b704c488f60dbb36627b6398a2d1daf8de2c51b86557a7d",
+      "imageDimensions": [
+        78,
+        66
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 449,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "kia_picanto_1",
+      "kind": "damage_benchmark",
+      "sourceHash": "b93bd48985ae0184036edd841dd25b3d4f07a343b583d9b6ae90b23a638243cd",
+      "imageDimensions": [
+        1080,
+        720
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 649,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "lamp broken",
+          "classId": 4,
+          "score": 0.4946,
+          "box": [
+            587,
+            271,
+            707,
+            415
+          ],
+          "state": "model_suggestion",
+          "color": [
+            245,
+            174,
+            50
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "kia_picanto_2",
+      "kind": "damage_benchmark",
+      "sourceHash": "997f53d7a69e1577b847bb80dc6834aba7d94312fead8d824bd49bc622b4aa69",
+      "imageDimensions": [
+        1080,
+        720
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 632,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "lamp broken",
+          "classId": 4,
+          "score": 0.9312,
+          "box": [
+            734,
+            159,
+            881,
+            381
+          ],
+          "state": "model_suggestion",
+          "color": [
+            245,
+            174,
+            50
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.5722,
+          "box": [
+            398,
+            332,
+            825,
+            616
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.4167,
+          "box": [
+            726,
+            519,
+            826,
+            618
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "kia_picanto_3",
+      "kind": "damage_benchmark",
+      "sourceHash": "96f5993a2d49e8149e098a7003aa9896abbe322bfd04ebfe03bbbc0e2d83ac41",
+      "imageDimensions": [
+        1080,
+        720
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 662,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.683,
+          "box": [
+            369,
+            246,
+            619,
+            543
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "kia_picanto_4",
+      "kind": "damage_benchmark",
+      "sourceHash": "b042fc94f38422357839db9750c65d3b55e1a6fc0cfb2f9a18e96f1fa3f5a765",
+      "imageDimensions": [
+        1080,
+        720
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 706,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.8053,
+          "box": [
+            462,
+            128,
+            1077,
+            590
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "suzuki_swift_1",
+      "kind": "damage_benchmark",
+      "sourceHash": "7fc74d75c8001fb8a593a97a3f0613745ad00531683ae9f45f2913e0862787f0",
+      "imageDimensions": [
+        1280,
+        960
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 760,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "glass shatter",
+          "classId": 3,
+          "score": 0.3804,
+          "box": [
+            219,
+            150,
+            449,
+            295
+          ],
+          "state": "model_suggestion",
+          "color": [
+            164,
+            104,
+            234
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "suzuki_swift_2",
+      "kind": "damage_benchmark",
+      "sourceHash": "3fc38320497fd9544a6e5fa1eed55d205f1c097135e6f056f58aa6674306b729",
+      "imageDimensions": [
+        1280,
+        960
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 945,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.8888,
+          "box": [
+            189,
+            348,
+            516,
+            527
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.7142,
+          "box": [
+            196,
+            552,
+            509,
+            613
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.6498,
+          "box": [
+            772,
+            338,
+            1196,
+            569
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d3",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.5806,
+          "box": [
+            513,
+            543,
+            797,
+            656
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d4",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.4445,
+          "box": [
+            105,
+            542,
+            174,
+            610
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "suzuki_swift_3",
+      "kind": "damage_benchmark",
+      "sourceHash": "e9f9bcf7639c7da1c03db7a18c4b629c66e50142ac099cf848ba86b761ff3387",
+      "imageDimensions": [
+        1280,
+        960
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 728,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality. The strongest sub-threshold suggestion was 31% (crack); lower the threshold to surface it.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "vw_golf_1",
+      "kind": "damage_benchmark",
+      "sourceHash": "4a40a6bae457aec936c6a2bddd6a2a01230904e65ae87e6977a44145ec5a425f",
+      "imageDimensions": [
+        4080,
+        3060
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 2649,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.8871,
+          "box": [
+            548,
+            1033,
+            1181,
+            1545
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.6955,
+          "box": [
+            288,
+            975,
+            533,
+            1177
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.6767,
+          "box": [
+            3073,
+            2127,
+            3442,
+            2239
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "vw_golf_2",
+      "kind": "damage_benchmark",
+      "sourceHash": "47d152c6ee48156af9f2ec2151c58b55385b56eb51c3eeb45992345cd5b49ba9",
+      "imageDimensions": [
+        4080,
+        3060
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 2540,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.9016,
+          "box": [
+            1626,
+            1494,
+            2269,
+            1899
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.5518,
+          "box": [
+            2293,
+            1284,
+            3044,
+            1878
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0003_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "6927b44fb5e82d5730e47106eaa38a87e8ec80036b29185b1613d5b78b573fea",
+      "imageDimensions": [
+        233,
+        217
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 608,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality. The strongest sub-threshold suggestion was 25% (dent); lower the threshold to surface it.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0020_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "ec72cac6592be0d31ad19df1c859ff913a6c864131ddaea263f80a1691d078c9",
+      "imageDimensions": [
+        313,
+        161
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 627,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "glass shatter",
+          "classId": 3,
+          "score": 0.9031,
+          "box": [
+            8,
+            26,
+            313,
+            129
+          ],
+          "state": "model_suggestion",
+          "color": [
+            164,
+            104,
+            234
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0025_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "59876185363cd8e0ed2f87ebc4b1538f1e7d2c7195f9f6b2ca4f1a69881eaec5",
+      "imageDimensions": [
+        275,
+        183
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 615,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0045_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "8464e9c44c24c7562e00494c7d6b7c74e7590ab4c49cdb55cdadcabed509087a",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 627,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "glass shatter",
+          "classId": 3,
+          "score": 0.4038,
+          "box": [
+            0,
+            5,
+            255,
+            194
+          ],
+          "state": "model_suggestion",
+          "color": [
+            164,
+            104,
+            234
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0059_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "c5a7ebf40face52588be826ec4137c9d17ea7c9b152f85534a3eb971c76ccac0",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 594,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0098_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "38736068de41c5790daca742e660d6118b980c89ddb2a01057670fa54e063d61",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 819,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_0116_JPEG",
+      "kind": "damage_sample",
+      "sourceHash": "9e24591065e8e395cec13340a8ffa71db92ba88f2f8cfc88aeafcbd2233e1eec",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 817,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_4JI4Jok_jpg",
+      "kind": "damage_sample",
+      "sourceHash": "a7c95ba2c19258aef863702e9640fa48d18995552f78608fc76e524ef9c93fe8",
+      "imageDimensions": [
+        1520,
+        2688
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 1301,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.9211,
+          "box": [
+            595,
+            741,
+            1424,
+            1999
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_Can-I-Drive-My-Damag",
+      "kind": "damage_sample",
+      "sourceHash": "fd57cfab47b4dcfd47e7e0551ff395916b6af7f0e1a1c2cdc7e2efab47c27282",
+      "imageDimensions": [
+        1000,
+        458
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 664,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "lamp broken",
+          "classId": 4,
+          "score": 0.9001,
+          "box": [
+            492,
+            29,
+            774,
+            249
+          ],
+          "state": "model_suggestion",
+          "color": [
+            245,
+            174,
+            50
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.3835,
+          "box": [
+            420,
+            166,
+            543,
+            317
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_deflated-damaged-tyr",
+      "kind": "damage_sample",
+      "sourceHash": "8786fa59add2a968d45935283bb236eb2b3b44f5718b2abb46b53de8f7dddd47",
+      "imageDimensions": [
+        1300,
+        957
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 826,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "tire flat",
+          "classId": 5,
+          "score": 0.9693,
+          "box": [
+            258,
+            135,
+            1042,
+            834
+          ],
+          "state": "model_suggestion",
+          "color": [
+            75,
+            185,
+            129
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_do-it-yourself-repai",
+      "kind": "damage_sample",
+      "sourceHash": "9fc43463ab1e6e9d375b574581249bec24bebde2516ac5b2a28935729af26eb8",
+      "imageDimensions": [
+        1300,
+        956
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 810,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "lamp broken",
+          "classId": 4,
+          "score": 0.9378,
+          "box": [
+            333,
+            84,
+            1193,
+            630
+          ],
+          "state": "model_suggestion",
+          "color": [
+            245,
+            174,
+            50
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.832,
+          "box": [
+            1026,
+            339,
+            1299,
+            865
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.7627,
+          "box": [
+            698,
+            598,
+            1085,
+            866
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_image (1)",
+      "kind": "damage_sample",
+      "sourceHash": "30654cb772c3852bf609189a238fcfa1cb39ac4767990cf100aaaa4f49b9ce8c",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 589,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_image (2)",
+      "kind": "damage_sample",
+      "sourceHash": "c5160f8d366674135c987a4d637d02b7956de095494b2a20a22d5c41161effe0",
+      "imageDimensions": [
+        313,
+        161
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 592,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_image (3)",
+      "kind": "damage_sample",
+      "sourceHash": "850709f0becca88bbd13445ebe190f55d03090eca1d23c27df261f79c04e199d",
+      "imageDimensions": [
+        275,
+        183
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 654,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.3962,
+          "box": [
+            89,
+            36,
+            263,
+            105
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_image (4)",
+      "kind": "damage_sample",
+      "sourceHash": "1e3ffb5a0a8c94a0ef52f1243e391a4fc8fd5ead0d0269266d324d6b6a893bfa",
+      "imageDimensions": [
+        259,
+        194
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 610,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_image (5)",
+      "kind": "damage_sample",
+      "sourceHash": "364824cc2ba04aee34d4dc84f345e5d1ca14776c5222a0fece41d7a54650d39d",
+      "imageDimensions": [
+        300,
+        168
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 599,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "tire flat",
+          "classId": 5,
+          "score": 0.933,
+          "box": [
+            65,
+            1,
+            218,
+            133
+          ],
+          "state": "model_suggestion",
+          "color": [
+            75,
+            185,
+            129
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "umer_large-car-dent-in-ne",
+      "kind": "damage_sample",
+      "sourceHash": "d975a4e6abc19480b9688d9f3fda8b62e859ce28233737b8b36f49b1162fa650",
+      "imageDimensions": [
+        1200,
+        900
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 745,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.9316,
+          "box": [
+            502,
+            388,
+            788,
+            581
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.8385,
+          "box": [
+            409,
+            363,
+            502,
+            489
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mehulcode12_temp_file",
+      "kind": "damage_sample",
+      "sourceHash": "81e95d6a234cdcdbc4af8c759716d0f1f6ef73841b835b0b33fcd2217914ff47",
+      "imageDimensions": [
+        800,
+        600
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 663,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.7397,
+          "box": [
+            569,
+            299,
+            796,
+            435
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "crack",
+          "classId": 2,
+          "score": 0.695,
+          "box": [
+            150,
+            360,
+            208,
+            408
+          ],
+          "state": "model_suggestion",
+          "color": [
+            210,
+            66,
+            130
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mehulcode12_temp_image",
+      "kind": "damage_sample",
+      "sourceHash": "881d96da32290df1a7e9c4d726ffd5e102dab8b5f66b2b08b44be32a35a57df6",
+      "imageDimensions": [
+        800,
+        600
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 786,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "crack",
+          "classId": 2,
+          "score": 0.7849,
+          "box": [
+            203,
+            354,
+            294,
+            465
+          ],
+          "state": "model_suggestion",
+          "color": [
+            210,
+            66,
+            130
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_10",
+      "kind": "damage_sample",
+      "sourceHash": "49cea417ed70ccc17d0b7af5c888c29f5ae5ff16e079f80d60f21d6aa9fa6a11",
+      "imageDimensions": [
+        491,
+        491
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 651,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.7078,
+          "box": [
+            167,
+            76,
+            333,
+            164
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.3924,
+          "box": [
+            286,
+            172,
+            461,
+            423
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_11",
+      "kind": "damage_sample",
+      "sourceHash": "0031ae565fd02241730d234c491e3e8c8632cc9a01895db554c45d51dcefa152",
+      "imageDimensions": [
+        1024,
+        1024
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 790,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.5306,
+          "box": [
+            842,
+            349,
+            1024,
+            544
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "scratch",
+          "classId": 1,
+          "score": 0.4007,
+          "box": [
+            6,
+            752,
+            178,
+            902
+          ],
+          "state": "model_suggestion",
+          "color": [
+            36,
+            160,
+            220
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_12",
+      "kind": "damage_sample",
+      "sourceHash": "8d882241ba80ab74b6b682ea14ccc0f8dea88cb5ce20fb9bb6f33a8d33acbb7b",
+      "imageDimensions": [
+        1024,
+        1024
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 751,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "glass shatter",
+          "classId": 3,
+          "score": 0.953,
+          "box": [
+            296,
+            139,
+            886,
+            355
+          ],
+          "state": "model_suggestion",
+          "color": [
+            164,
+            104,
+            234
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.8927,
+          "box": [
+            571,
+            424,
+            856,
+            648
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.8312,
+          "box": [
+            32,
+            355,
+            461,
+            527
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_13",
+      "kind": "damage_sample",
+      "sourceHash": "2dc171c95975f5dc51d799a0d872df622010e555ab00a6c6a6b9af8807de5644",
+      "imageDimensions": [
+        1024,
+        1024
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 764,
+      "detections": [
+        {
+          "id": "d0",
+          "label": "glass shatter",
+          "classId": 3,
+          "score": 0.948,
+          "box": [
+            374,
+            398,
+            857,
+            535
+          ],
+          "state": "model_suggestion",
+          "color": [
+            164,
+            104,
+            234
+          ]
+        },
+        {
+          "id": "d1",
+          "label": "dent",
+          "classId": 0,
+          "score": 0.6168,
+          "box": [
+            549,
+            506,
+            966,
+            690
+          ],
+          "state": "model_suggestion",
+          "color": [
+            239,
+            100,
+            54
+          ]
+        }
+      ],
+      "notice": "Predicted damage regions require seller confirmation; model scores are not calibrated certainty or severity.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_5",
+      "kind": "damage_sample",
+      "sourceHash": "1545e0a8cc67f3f0e4e4de77d6f46196d7dcb826e467fc29d38744bb01b8ab29",
+      "imageDimensions": [
+        415,
+        415
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 600,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality. The strongest sub-threshold suggestion was 14% (dent); lower the threshold to surface it.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "mrcharlessg_8",
+      "kind": "damage_sample",
+      "sourceHash": "b2c580c234ddf418345064b98bc73162f3dddafcff8f90a2fd78f0d078e4d24d",
+      "imageDimensions": [
+        2736,
+        2736
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 1727,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    },
+    {
+      "exampleId": "shivanshgupta_carimage3",
+      "kind": "damage_sample",
+      "sourceHash": "1fa5c3902e0ae6001e5860eaef65a20f18915315a934cf5b475b97f2e86cb92c",
+      "imageDimensions": [
+        4912,
+        2760
+      ],
+      "threshold": 0.35,
+      "elapsedMs": 2651,
+      "detections": [],
+      "notice": "No predicted damage above this threshold. This does NOT establish damage-free condition or functionality.",
+      "geometryValidated": true
+    }
+  ]
+}

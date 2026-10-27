@@ -1,0 +1,23 @@
+@layer components {
+  @media (max-width: 1000px) {
+    .platform-search, .identity-form { grid-template-columns: repeat(2, 1fr); }
+    .platform-search .field-label:first-child, .identity-form .field-label:first-child { grid-column: 1 / -1; }
+    .trade-output { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 780px) {
+    .platform-personas { grid-template-columns: 1fr; }
+    .platform-personas > div { padding: 13px 15px; }
+    .platform-result { flex-direction: column; }
+    .platform-result > .button { width: 100%; }
+    .identity-candidate { grid-template-columns: 1fr; }
+    .translation-columns { grid-template-columns: 1fr; }
+    .inquiry-row { grid-template-columns: 1fr; gap: 7px; }
+  }
+  @media (max-width: 520px) {
+    .platform-search, .identity-form, .trade-controls, .translation-form { grid-template-columns: 1fr; }
+    .platform-search .field-label:first-child, .identity-form .field-label:first-child, .translation-form .translation-text { grid-column: auto; }
+    .identity-actions { grid-template-columns: 1fr; }
+    .identity-actions .field-label:last-of-type { grid-column: auto; }
+    .quote-total strong { font-size: 22px; }
+  }
+}

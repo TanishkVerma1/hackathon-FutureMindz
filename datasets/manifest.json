@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-27",
+  "authority": "demo_only",
+  "records": 20,
+  "demo_records": 10,
+  "images": "Team-generated synthetic stock-label images, not real product photographs",
+  "rights": "Fictional inventory and OCR label artwork are team-authored. Separate real-photo/model provenance and license notices are retained in datasets/vision/ and models/vision/.",
+  "limitations": [
+    "No real vehicle fitment validated",
+    "Visual model suggests damage regions; detached-mirror/mounting-tab accuracy is not validated",
+    "Arabic extraction uses local OCR and limited reviewed phrases, not unrestricted translation"
+  ],
+  "visual_inspection": {
+    "images": "24 actual Carparts-Seg mirror crops plus 9 cloudwhynot benchmarks, 17 umerforsure samples and 9 additional real damage photos from MRCHARLESSG, MEHULCODE12 and ShivanshGupta-25; 59 real photos total, separate from fictional seller stock",
+    "model": "Local pretrained YOLO26 damage CNN exported to ONNX; six damage classes; CPU inference, no training or runtime download",
+    "provenance": "datasets/vision/images.json and models/vision/manifest.json",
+    "visualization": "Predicted instance masks and score-weighted mask activation, not Grad-CAM or severity; sub-threshold raw scores are informational only",
+    "license_caveat": "Repository MIT notices and no-license caveats are retained; review obligations before public/commercial release"
+  },
+  "references": [
+    {
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "decision": "Selected local OCR engine family; Tesseract.js WASM with bundled English/Arabic language data",
+      "license": "Apache-2.0 engine; retain package/model license notices"
+    },
+    {
+      "url": "https://github.com/Brachingo/Car-Detection-and-Parts-Segmentation",
+      "decision": "Actual master-branch config resolved to Ultralytics Carparts-Seg archive; 12 attributed mirror crops and original part annotation masks prepared, no damage labels inferred"
+    },
+    {
+      "url": "https://github.com/cloudwhynot/car-damage-detection-yolo",
+      "decision": "Four real demo photos and checksum-verified damage checkpoint used. Checkpoint exported once to CPU ONNX; masks and activation overlays are genuine predictions, not confirmed defects",
+      "license": "Retained repository MIT notice, plus separately disclosed Ultralytics derivative/training-data obligations"
+    },
+    {
+      "url": "https://github.com/amelia-ng/vehicle-defect-detection",
+      "decision": "Method reference only: rights/checkpoint availability not sufficiently established; no assets imported from this repository"
+    },
+    {
+      "url": "https://github.com/ultralytics/ultralytics",
+      "decision": "Export-only Python dependency; no Python/PyTorch service or training in deployment. Node ONNX Runtime performs offline inference; retain/review derivative-model terms"
+    },
+    {
+      "url": "https://github.com/JaidedAI/EasyOCR",
+      "decision": "Deferred: PyTorch stack heavier than single-runtime local Tesseract for this prototype"
+    },
+    {
+      "url": "https://developer.ebay.com/",
+      "decision": "No API integration or runtime external calls"
+    }
+  ]
+}

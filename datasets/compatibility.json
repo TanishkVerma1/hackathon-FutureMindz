@@ -1,0 +1,178 @@
+[
+  {
+    "id": "REF-DEMO-01",
+    "part_number": "DEMO-MIRROR-001",
+    "manufacturer": "Toyota",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-05",
+    "part_number": "DEMO-MIRROR-005",
+    "manufacturer": "Honda",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Honda FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-06",
+    "part_number": "DEMO-MIRROR-006",
+    "manufacturer": "Nissan",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Nissan FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-07",
+    "part_number": "DEMO-MIRROR-007",
+    "manufacturer": "Toyota",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-08",
+    "part_number": "DEMO-MIRROR-008",
+    "manufacturer": "Honda",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Honda FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-09",
+    "part_number": "DEMO-MIRROR-009",
+    "manufacturer": "Nissan",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Nissan FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-10",
+    "part_number": "DEMO-MIRROR-010",
+    "manufacturer": "Toyota",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-11",
+    "part_number": "DEMO-MIRROR-011",
+    "manufacturer": "Honda",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Honda FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-12",
+    "part_number": "DEMO-MIRROR-012",
+    "manufacturer": "Nissan",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Nissan FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-13",
+    "part_number": "DEMO-MIRROR-013",
+    "manufacturer": "Toyota",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-15",
+    "part_number": "DEMO-MIRROR-015",
+    "manufacturer": "Nissan",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Nissan FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-16",
+    "part_number": "DEMO-MIRROR-016",
+    "manufacturer": "Toyota",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-17",
+    "part_number": "DEMO-MIRROR-017",
+    "manufacturer": null,
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Honda FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-18",
+    "part_number": "DEMO-MIRROR-018",
+    "manufacturer": "Nissan",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Nissan FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-19",
+    "part_number": "DEMO-MIRROR-019",
+    "manufacturer": "Toyota",
+    "side": "left",
+    "connector": "5-pin",
+    "vehicle": "Toyota FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  },
+  {
+    "id": "REF-DEMO-20",
+    "part_number": "DEMO-MIRROR-020",
+    "manufacturer": "Honda",
+    "side": "right",
+    "connector": "5-pin",
+    "vehicle": "Honda FICTIONAL test vehicle configuration",
+    "authority": "demo_only",
+    "version": "demo-2026-10-27",
+    "source": "Team-authored synthetic test reference; not real fitment data"
+  }
+]

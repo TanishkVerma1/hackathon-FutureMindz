@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - yardpass-data:/app/.local-data
+    networks:
+      - offline
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+networks:
+  offline:
+    name: yardpass-local
+    driver: bridge
+volumes:
+  yardpass-data:

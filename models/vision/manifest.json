@@ -1,0 +1,47 @@
+{
+  "id": "cloudwhynot-damage-segmentation",
+  "repository": "https://github.com/cloudwhynot/car-damage-detection-yolo",
+  "checkpoint_sha256": "02a2cabd2c13d165ee4e01fa78a091d9f34a859320e49c878d4d704920f6446f",
+  "model": "damage.onnx",
+  "model_sha256": "493f32118ca2e130d956ccc778f67c9e2d98d80e05b8ff57459219054ea6daa3",
+  "classes": {
+    "0": "dent",
+    "1": "scratch",
+    "2": "crack",
+    "3": "glass shatter",
+    "4": "lamp broken",
+    "5": "tire flat"
+  },
+  "input_size": 640,
+  "inputs": {
+    "images": [
+      1,
+      3,
+      640,
+      640
+    ]
+  },
+  "outputs": {
+    "output0": [
+      1,
+      42,
+      8400
+    ],
+    "output1": [
+      1,
+      32,
+      160,
+      160
+    ]
+  },
+  "engine": "ONNX Runtime CPU",
+  "model_role": "Pretrained vehicle damage instance segmentation, not a dedicated detached-mirror or mounting-tab model",
+  "visualization": "Segmentation masks and score-weighted mask activation map, not Grad-CAM, not calibrated defect severity",
+  "source_license": "Repository MIT notice retained; Ultralytics derivative-model and training-data terms must also be reviewed before distribution/commercial use",
+  "limitations": [
+    "A model suggestion is not a confirmed defect",
+    "No detection does not establish damage-free condition",
+    "No functionality, fitment or authenticity inference",
+    "Detached mirror domain not validated"
+  ]
+}

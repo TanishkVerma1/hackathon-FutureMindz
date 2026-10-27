@@ -1,0 +1,22 @@
+{
+  "acquired_at": "2026-10-27T17:36:48.353Z",
+  "sources": [
+    {
+      "repository": "https://github.com/cloudwhynot/car-damage-detection-yolo",
+      "license": "MIT, Copyright (c) 2026 cloudwhynot; see cloudwhynot-LICENSE.txt",
+      "role": "Damage CNN checkpoint + 9 whole-vehicle benchmark photos"
+    },
+    {
+      "repository": "https://github.com/umerforsure/Car-Damage-Detection",
+      "license": "MIT, see umerforsure-LICENSE.txt",
+      "role": "Real damaged-vehicle sample photos for library expansion"
+    },
+    {
+      "archive": "https://github.com/ultralytics/assets/releases/download/v0.0.0/carparts-seg.zip",
+      "upstream": "https://universe.roboflow.com/gianmarco-russo-vt9xr/car-seg-un1pm",
+      "role": "12 attributed mirror crops with part annotations"
+    }
+  ],
+  "scope": "Local proof-of-concept. Repository MIT licenses are not independent certification of underlying image/training-data rights. Ultralytics derivative-model terms also require review before publication/commercial use.",
+  "image_context": "Whole-vehicle and part photos from public repositories, not verified detached-salvage-part photographs. Some samples may carry third-party watermarks; only non-watermarked files are curated."
+}

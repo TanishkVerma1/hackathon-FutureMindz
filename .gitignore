@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.local-data/
+.venv-vision/
+.env
+*.log
+playwright-report/
+test-results/
